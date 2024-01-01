@@ -17,6 +17,8 @@
     margin: auto;
  }
 
+ 
+
 
  
 header nav{
@@ -36,39 +38,29 @@ header nav ul{
 }
 
 header nav ul li{
-    padding: 3px 15px;
+    padding: 3px 10px;
 }
 
-header nav ul li:nth-child(1){
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 5px 20px;
-}
 
-header nav ul li:nth-last-child(1){
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 5px 20px;
-}
-
-header nav ul li:nth-child(1) a {
-   color: #ffffff;
-}
-
-header nav ul li:nth-last-child(1) a {
-    color: #ffffff
-}
 
 header nav ul li a{
-    text-decoration: none;
-    color: #121312;
+  
+    text-decoration: none;   
+    border-radius: 2px solid rgba(0, 0, 0, 0.5);
+    color: #000000;
+    border-radius: 20px; 
+    transition: .3s linear;
+    padding: 6px 15px;  
+    cursor: pointer; 
     font-size: 13px;    
     font-weight: 500;
-    transition: 3s linear;
+   
 }
 
 header nav ul li a:hover{
-    color: rgb(0, 0, 0);
+  background: #000000;
+  color:#fff;
+  
 }
 
 header .content{
@@ -83,7 +75,7 @@ header .content::before{
     position: absolute;
     width: 100%;
     height: 80%;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     background:  url('1.jpg') no-repeat center center/cover;
     border-radius: 10px;
     z-index: -1;
@@ -115,129 +107,317 @@ header .content .cont_bx p{
     
 }
 
-header .trip_bx{
-    position: relative;
-    width: 95%;
-    height: auto;
-    margin: auto;
-    /*border: 1px solid #000;*/
+
+
+.touchsearch{
+    margin-top: 5.3%;
+    padding: 6rem 0rem;
 
 }
 
-header .trip_bx .search_box{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 60px;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add styles for medium screens */
+}
+
+/* Large screens (1024px and above) */
+@media only screen and (min-width: 1024px) {
+  /* Add styles for large screens */
+}
+
+.touchsearch .form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.touchsearch .form .inputline{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.touchsearch .form .inputline .inputlabel{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.touchsearch .form .inputline .input-field{
+    font-size: 10px;
+    color: #121312;
+    padding: 0.5rem 0.2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.touchsearch a{
+    position: absolute;
+    text-decoration: none;
+    margin: 2% 0% 0% 37%;
+    border-radius: 2px solid rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1rem;
+    padding: 6px 115px;   
+    border-radius: 20px; 
+    transition: .3s linear;
+  }
+    
+  .touchsearch a:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+  }
+
+
+.sect-about .row-container {
+    gap: 1rem;
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+ 
+  }
+
+.sect-about{
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+  .sect-about .row-container .count-img img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 5px;
+   
+  } 
+
+
+
+.col .title h1{
+    margin-top: 0%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+
+}
+
+.col p {
+    margin-bottom: 1rem;
+  }
+  
+  .sect-about .rate {
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  
+.rate a{
+    margin: 0% 0% 0% 80%;
+    text-decoration: none;
+    border-radius: 2px solid rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 18px;  
+    padding: 6px 10px;    
+    transition: .3s linear;
+}
+
+.rate a:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+  }
+
+
+
+
+.sect_trend{
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+
+.trending__grid {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .trending__card {
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .trending__card img {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .trending__card p {
+    font-size: 0.9rem;
+    color: var(--text-light);
+  }
+  
+  .trending__card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .trending__details {
+   
     display: flex;
     align-items: center;
-    justify-content: center;
-    background:#fff;
-    border-radius: 5px;
-    box-shadow: 0px 10px 15px rgba(114, 114, 114,);
-    z-index: 1;
-    padding: 10px 20px;
-}
-
-header .trip_bx .search_box .card{
-    width: 200px;
-    height: 100%;
-    /*border: 1px solid #000;*/
-
-}
-
-header .trip_bx .search_box .card h4{
-    font-size: 15px;
-    margin: 00;
-    font-weight: 700;
-}
-
-header .trip_bx .search_box .card h4 .bi{
-   position: absolute;
-   font-size: 13px;
-   margin: 2px 0px 0px 5px;
-   transition: .3s linear;
-}
-
-header .trip_bx .search_box .card input{
-    margin-top: 3px;
-    padding: 5px 0px;
-    border: none;
-    outline: none;
-    font-size: 13px;
-}
-
-header .trip_bx  .travel_bx{
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    top: 40px;
-    /*background: #000;*/
-    /*border: 1px solid #000;*/
-    border-radius: 10px;
-    padding-bottom: 20px;
-    box-shadow: 0px 20px 25px -10px rgba(165, 165, 165);
-}
-
-header .trip_bx  .travel_bx::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 20px 25px -10px rgba(165, 165, 165);
-    backdrop-filter: blur(5px);
-    z-index: -1;
-}
-
-header .trip_bx  .travel_bx h4{
-    margin: 0;
-    padding: 60px 0px 15px 1.7%;
-    color: #fff;
-}
-
-header .trip_bx  .travel_bx .cards{
-   width: 96%;
-   height: auto;
-   margin: 0 auto;
-  /* border: 1px solid #fff;*/
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
-header .trip_bx  .travel_bx .cards .card{
-   width: 220px;
-   height: 180px;
-   /*border: 1px solid #000;*/
+    justify-content: space-between;
+    
+  }
   
+  .trending__details p {
+    font-weight: 500;
+    color: var(--text-dark);
+  }
+  
+  .trending__details h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .trending__ratings span {
+    font-size: 0.9rem;
+    color: goldenrod;
+  }
+  
+  .trending__ratings p {
+    text-align: right;
+  }
+  
+  .trending__card h5 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+  }
+  
+  .trending__card h5 span {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }
+  
+  .trending__card p span {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }
+  
+  .trending__card:hover {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+
+
+.cont_conti{
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
 }
 
-header .trip_bx  .travel_bx .cards .card h3{
-   margin: 0px 0px 10px 0px;
-   display: flex;
-   align-items:center;
-   font-size: 16px;
-   font-weight: 600;
-   color: aliceblue;
+.conti_grid{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 350px repeat(3, 1fr);
+    grid-auto-rows: max-content;
+    gap: 1.5rem;
 }
 
-header .trip_bx  .travel_bx .cards .card img{
-  width: 80%;
-  height: 50%;
+.conti_card{
+    position: relative;
 }
 
-header .trip_bx  .travel_bx .cards .card .cont_names a{
-  text-decoration: none;
-  background: #000;
-  color: #fff;
-  border-radius: 20px;
-  padding: 6px 20px;
-  font-size: 11px;
-  transition: .3s linear;
+.conti_card:nth-child(1){
+    grid-area: 1/1/3/2;
 }
 
-header .trip_bx  .travel_bx .cards .card .cont_names a:hover{
-  background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+.conti_card:nth-child(2){
+    grid-area: 1/2/2/4;
+}
+
+.conti_card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.conti_n{
+    text-decoration:none ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+
+
+.conti_names h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.conti_grid:hover .conti_card img{
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+
+
+
+.sect-serv {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.service__grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.service__card {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-image: var(--gradient-2);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service__card span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.service__card h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.service__card p {
+  color: var(--extra-light);
+  line-height: 2rem;
 }

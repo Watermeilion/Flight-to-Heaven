@@ -1,125 +1,293 @@
-*{
-    margin: 0;
+:root
+    
+/*{
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-.container{
-    width:100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('trvl.jpg');
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
+    margin: 0;
     box-sizing: border-box;
-}
+} */
 
-.navbar{
-    height: 12%;
-    display: flex;
-    align-items: center;
-}
+ body{
+    font-family: sans-serif;
+ }   
 
-.logo{
-    width: 50px;
-    cursor: pointer;
-
-}
-
-.menu-icon{
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
-}
-
-nav{
-    flex: 1;
-    text-align: right;
-
-}
-
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-
-}
-.coll h1{
-    color: #fff;
-    font-size: 100px;
-    padding: 50px;
-}
-
- .places{
-    position: relative;
-    width: 100%;
-    height: 100%;  
-    top: 40px;
-    background: none;
+ header{
+    width: 80%;
+    height: 95vh;
     border: 1px solid #000;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    z-index: 1;
-}
+    margin: auto;
+ }
+
 
  
-
-
-.row{
-    display: inline-block;
-    height: 88%;
+header nav{
+    width: 95%;
+    height: 7%;
+    border: 1px solid #000;
+    margin: auto;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-
-.col{
-    flex-basis: 50%;
+header nav ul{
+    list-style: none;
+    display: flex;
 
 }
 
+header nav ul li{
+    padding: 3px 15px;
+}
 
+header nav ul li:nth-child(1){
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
 
+header nav ul li:nth-last-child(1){
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
 
-.card{
-    width: 210px;
-    height: 250px;
-    display: inline-block;
+header nav ul li:nth-child(1) a {
+   color: #ffffff;
+}
+
+header nav ul li:nth-last-child(1) a {
+    color: #ffffff
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #121312;
+    font-size: 13px;    
+    font-weight: 500;
+    transition: 3s linear;
+}
+
+header nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+header .content{
+    position: relative;
+    width: 100%;
+    height: 93%;
+    border: 1px solid #000;
+}
+
+header .content::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    border: 1px solid #000;
+    background:  url('cnm/kenya.jpg') no-repeat center center/cover;
     border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-image: url(cnm/08.jpg);
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
+    z-index: -1;
 
 }
 
- .card h5{
+header .content .cont_bx{
+    width: 500px;
+    height: auto;
+    color: #ff0884;
+    padding: 30px;
+}
+
+header .content .cont_bx h1{
+    line-height: 40px;
+    font-weight: 800;
+    color:  whitesmoke;
+    padding: 8%;
+    margin:0;
+    border: 1px solid #000;
+}
+
+
+header .content .cont_bx p{
+    font-size: 14px;
+    font-weight: 400;
+    color: whitesmoke;
+}    
     
-    color: #fff;
-    padding: -3000px;
+.touchsearch{
+    margin-top: 10%;
+    padding: 6rem 0rem;
+
 }
 
+.touchsearch .form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1.5rem;
+    align-items: center;
 
-.card p{
-    color: #fff;
-    font-size: 11px;
-    line-height: 15px;
 }
 
-.card:hover{
+.touchsearch .form .inputline{
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.touchsearch .form .inputline .inputlabel{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.touchsearch .form .inputline .input-field{
+    font-size: 10px;
+    color: #121312;
+    padding: 0.5rem 0.2rem;
+    border: none;
+    background-color: transparent;
+}
+
+.touchsearch a{
+    position: absolute;
+    text-decoration: none;
+    margin: 2% 0% 0% 37%;
+    border-radius: 2px solid rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1rem;
+    padding: 6px 115px;   
+    border-radius: 20px; 
+    transition: .3s linear;
+  }
     
-    transform: translateY(-10px);
+  .touchsearch a:hover{
+    background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+  }
+
+  
+
+section{
+    width: 100%;
+    min-height: 10vh;
+    padding: 2rem 0rem;
+    margin:0;
+    border: 1px solid #000;
+}
+
+section .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+section .heading .title-h{
+    font-size: 34px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #ff0884;
+
+}
+
+section .heading .subt-h{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #ff0884;
+
+}
+
+section .heading .desc-h{
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #1ab81f;
+    max-width: 700px;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.destination{
+    background-color: #000000;
+}
+
+.destination .items {
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+
+.destination .items .itm{
+    width: 100%;
+    
+    overflow: hidden;
+    background-color: #1ab81f;
+    padding-bottom: 2rem;
+    box-shadow: 1px 1px 2px #fff;
+}
+
+.destination .items .itm .img-itm{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.destination .items .itm .img-itm img{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.destination .items .itm .icon{
+    position: relative;
+    z-index: 100;
+    background-color: #a92828;
+    margin-top: -150px;
+    border-radius: 0.75rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: 100;
+    width: 96%;
+    margin-left: 2%;
+    padding: 1rem;
+
+}
+
+.destination .items .itm .icon .stars{
+    position: relative;
+    z-index: 100;
+    float: right;
+    background-color: #fff;
+    margin-top: -40px;
+    border-radius: 0.75rem;
+    width: fit-content;
+    margin-left: 2%;
+    padding: 0.5rem 1rem;
+    background-color: #d9fa1e;
+
+}
+
+.destination .items .itm .icon .desc{
+    font-size: 14px;
+    list-style: 19px;
+    font-weight: 400;
+    color: #000000;
+    width: fit-content;
+
 }
