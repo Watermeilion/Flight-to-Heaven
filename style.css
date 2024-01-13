@@ -6,6 +6,8 @@
     box-sizing: border-box;
 } */
 
+
+
  body{
     font-family: sans-serif;
  }   
@@ -19,17 +21,43 @@
 
  
 
+ header .logo{
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    
+}
+
+header .logo span{
+  color: #ff8c00;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+}
+
+
 
  
 header nav{
-    width: 95%;
+    width: 100%;
     height: 7%;
     /*border: 1px solid #000;*/
-    margin: auto;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 header nav ul{
     list-style: none;
@@ -37,29 +65,23 @@ header nav ul{
 
 }
 
-header nav ul li{
-    padding: 3px 10px;
-}
-
-
 
 header nav ul li a{
   
     text-decoration: none;   
     border-radius: 2px solid rgba(0, 0, 0, 0.5);
     color: #000000;
-    border-radius: 20px; 
     transition: .3s linear;
-    padding: 6px 15px;  
+    padding: 0px 20px 0px 0px;  
     cursor: pointer; 
-    font-size: 13px;    
+    font-size: 13.5px;    
     font-weight: 500;
+   
    
 }
 
 header nav ul li a:hover{
-  background: #000000;
-  color:#fff;
+  color: #ff7b00;
   
 }
 
@@ -83,19 +105,29 @@ header .content::before{
 }
 
 header .content .cont_bx{
-    width: 500px;
+    width: 900px;
     height: auto;
     color: #fff;
     padding: 30px;
 }
 
 header .content .cont_bx h1{
+  font-size: 3em;
     line-height: 40px;
     font-weight: 800;
     color:  whitesmoke;
     padding: 8%;
     /*margin:0;*/
    /* border: 1px solid #000;*/
+}
+
+header .content .cont_bx p{
+ 
+  font-weight: 800;
+  color:  whitesmoke;
+  padding: 1%;
+  
+ /* border: 1px solid #000;*/
 }
 
 
@@ -110,19 +142,11 @@ header .content .cont_bx p{
 
 
 .touchsearch{
-    margin-top: 5.3%;
+    margin-top: 0%;
     padding: 6rem 0rem;
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Add styles for medium screens */
-}
-
-/* Large screens (1024px and above) */
-@media only screen and (min-width: 1024px) {
-  /* Add styles for large screens */
-}
 
 .touchsearch .form{
     display: grid;
@@ -174,6 +198,24 @@ header .content .cont_bx p{
     background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
   }
 
+.sect-about .about-btn .btn{
+    text-decoration: none;
+    position: absolute;
+    border-radius: 2px solid rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 0.9rem;
+    padding: 6px 15px;   
+    border-radius: 20px; 
+    transition: .3s linear;
+
+}
+
+.sect-about .about-btn .btn:hover{
+  background:linear-gradient(rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%);
+}
+
+
 
 .sect-about .row-container {
     gap: 1rem;
@@ -197,8 +239,13 @@ header .content .cont_bx p{
     height: 100%;
     max-height: 500px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
   } 
+
+  .sect-about .row-container .col p{
+    font-size: 1em;
+  }
 
 
 
@@ -420,4 +467,213 @@ header .content .cont_bx p{
 .service__card p {
   color: var(--extra-light);
   line-height: 2rem;
+}
+
+.swiper{
+  width: 100%;
+}
+
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 20em;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  padding: 2em 1em;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 2em;
+}
+
+.card__image{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid var(--color);
+  padding: 3px;
+  margin-bottom: 2em;
+}
+
+.card__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: .2em;
+}
+
+.card__name{
+  color: var(--color);
+}
+
+.card__text{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0;
+}
+
+.card__btn{
+  background-color: var(--color);
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#back-to-top-btn:hover {
+  background-color: #ff7b00;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    width: 100%;
+  }
+
+  header nav {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    padding: 10px 0;
+  }
+
+  header .content .cont_bx {
+    width: 100%;
+    padding: 20px;
+  }
+
+  header .content::before {
+    height: 60%;
+  }
+
+  header .content .cont_bx h1 {
+    font-size: 24px;
+    padding: 5%;
+  }
+
+  header .content .cont_bx p {
+    font-size: 12px;
+  }
+
+  /* Add more styles for small screens */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav ul li a {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  header .content .cont_bx {
+    width: 80%;
+  }
+
+  /* Add styles for medium screens */
+}
+
+/* Large screens (1024px and above) */
+@media only screen and (min-width: 1024px) {
+  header {
+    width: 80%;
+  }
+
+  header nav {
+    width: 80%;
+  }
+
+  /* Add styles for large screens */
+}
+
+
+
+@media (width < 600px) {
+  .nav__links {
+    display: none;
+  }
+
+  
+
+  .touchsearch {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .trending__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .conti_grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service__card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .guide__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .client__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .subscribe__container input {
+    padding: 0 1rem;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

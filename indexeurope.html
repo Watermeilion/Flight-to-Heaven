@@ -1,146 +1,1950 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title> Booking In Heaven</title>
 
-       
-        <!-- css file link -->    
-<link rel="stylesheet" href="europe.css">
-<title>hatdogg</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title> Booking In Heaven</title>
+
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="europe.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>hatdogg</title>
 </head>
 
 
 <body>
+    <!-- Go back to top button -->
+    <button id="back-to-top-btn"><i class="ri-arrow-up-double-line"></i></button>
+
     <header>
         <nav>
-            <h4>Heaven</h4>
-            <ul>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">About Us</a></li>
-
-            </ul>
+            <a href="index.html" class="logo">heaven<span>.</span></a>
         </nav>
-    
+
         <div class="content">
-        <div class="cont_bx">
-            <h1>E U R O P E</h1>
-            
-            
-            
-        </div>
-        
-        <div class="trip_bx">
-        <div class="search_box">
-            <div class="card">
-                <h4>C O U N T R I E S</h4>
-                 
+            <div class="cont_bx">
+                <h1>EUROPE</h1>
             </div>
+
+
+            <section class="touchsearch">
+                <div class="container">
+                    <form action="" class="form">
+                        <div class="inputline">
+                            <label for="destination" class="inputlabel"> Your destination </label>
+                            <input type="text" name="continent" id="continent" class="input-field"
+                                placeholder="Enter continent, country and the place">
+                        </div>
+
+                        <div class="inputline">
+                            <label for="date" class="inputlabel"> Date of your departure </label>
+                            <input type="date" name="date" id="date" class="input-field">
+                        </div>
+                        <div class="inputline">
+                            <label for="pax" class="inputlabel"> Number of people </label>
+                            <input type="text" name="pax" id="pax" class="input-field" placeholder="No. of people">
+                        </div>
+                    </form>
+                    <a href=""> Inquire Now</a>
                 </div>
-             
-            
-            
-            <div class="travel_bx">
-                <h4>Choose the country you wish to visit!</h4>
-                 <div class="cards">
-                    <div class="card">
-                        <h3>GERMANY</h3>
-                        <img src="cnm/germany.jpg">
-                        <div class="cont_names">
-                            <a href="aindex.html">More Info</a>
+
+            </section>
+
+
+
+            <div class="trip_bx">
+                <div class="travel_bx">
+                    <div class="cards">
+                        <div class="card">
+                            <h3>GERMANY</h3>
+                            <div class="overlay">
+                                <a href="#germany"> <img src="flags/eugermany.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>ITALY</h3>
+                            <div class="overlay">
+                                <a href="#italy"> <img src="flags/euitaly.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>FRANCE</h3>
+                            <div class="overlay">
+                                <a href="#france"> <img src="flags/eufrance.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>SWITZERLAND</h3>
+                            <div class="overlay">
+                                <a href="#sl"> <img src="flags/eusl.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>GREECE</h3>
+                            <div class="overlay">
+                                <a href="#greece"> <img src="flags/eugreece.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="trvl_bx">
+                    <div class="cnames">
+                        <div class="acard">
+                            <h3>UNITED KINGDOM</h3>
+                            <div class="overlayy">
+                                <a href="#uk"> <img src="flags/euuk.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>BELGIUM</h3>
+                            <div class="overlayy">
+                                <a href="#bel"> <img src="flags/eubel.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>NETHERLANDS</h3>
+                            <div class="overlayy">
+                                <a href="#nl"> <img src="flags/eunl.png"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="acard">
+                            <h3>SPAIN</h3>
+                            <div class="overlayy">
+                                <a href="#spain"> <img src="flags/euspain.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>AUSTRIA</h3>
+                            <div class="overlayy">
+                                <a href="#austria"> <img src="flags/euaustria.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <section class="destination">
+                <div class="container">
+                    <div class="heading">
+                        <h4 class="subt-h">
+                            Discover New Places
+                        </h4>
+
+                        <h1 class="title-h">
+                            Popular destination
+                        </h1>
+
+                        <div class="desc-h">
+                            <p>
+                                Planning a vacation around the world? Whether you’re craving a city break, a few days of
+                                adventure, or a total escape into nature, we’ve got you covered. Here are countless
+                                popular places around the world, each offering unique experiences!
+                            </p>
+
 
                         </div>
-                          
                     </div>
 
-                    <div class="card">
-                        <h3>ITALY</h3>
-                        <img src="cnm/italy.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+                </div>
+            </section>
+
+            <section class="countrues">
+                <div class="count-places" id="germany">
+                    <div class="count-t">
+                        <h2>GERMANY</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/gercastle.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Neuschwanstein Castle</h1>
+                            </div>
+                            <p>
+                                Located in Bavaria, Neuschwanstein Castle is one of the most famous castles in the
+                                world. Built in the 19th century, it is a stunning example of Romantic architecture. The
+                                castle is perched on a hilltop, surrounded by picturesque landscapes, and it served as
+                                the inspiration for the Disney logo.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <h3>FRANCE</h3>
-                        <img src="cnm/france.jpeg">
-                        <div class="cont_names">
-                            <a href="">More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/gergate.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Brandenburg Gate</h1>
+                            </div>
+                            <p>
+                                Situated in the heart of Berlin, the Brandenburg Gate is an iconic
+                                neoclassical monument that has played a significant role in German history. It was built
+                                in the late 18th century and has been a symbol of both division and reunification, as it
+                                stood within the Berlin Wall's no-man's-land during the Cold War.
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   </div>
-                    
-                   <div class="card">
-                        <h3>SPAIN</h3>
-                        <img src="cnm/sapin.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/gercathedral.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Cologne Cathedral</h1>
+                            </div>
+                            <p>
+                                This Gothic masterpiece is one of the largest cathedrals in Europe and a UNESCO World
+                                Heritage Site. Located in the city of Cologne, it took centuries to complete, and its
+                                twin spires dominate the city's skyline. The cathedral is known for its impressive
+                                architecture and the Shrine of the Three Kings, which is said to contain relics of the
+                                Magi.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div> 
-              
-              <div class="card">
-                <h3>AUSTRIA</h3>
-                <img src="cnm/austria.jpg">
-                <div class="cont_names">
-                    <a href="">More Info</a>
-            </div>
-      </div> 
- </div>
-   
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/gerblforest.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>The Black Forest</h1>
+                            </div>
+                            <p>
+                                The Black Forest is a mountainous region in southwest Germany known for its dense
+                                forests, charming villages, and cuckoo clocks. It offers a beautiful and serene
+                                landscape, with opportunities for hiking, skiing, and exploring traditional German
+                                culture. The region is also famous for its Black Forest Gateau, a delicious chocolate
+                                and cherry dessert.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/gerwall.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>The Berlin Wall </h1>
+                            </div>
+                            <p>
+                                While not a single place, the remnants of the Berlin Wall are historically significant.
+                                The Wall, which divided East and West Berlin during the Cold War, fell in 1989, leading
+                                to the reunification of Germany. Today, parts of the wall are preserved as a memorial,
+                                and the East Side Gallery features a long section covered in murals and street art.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="italy">
+                    <div class="count-t">
+                        <h2>ITALY</h2>
+                        <p></p>
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/italyColosseum.jpeg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Colosseum</h1>
+                                </div>
+                                <p>
+                                    Located in the heart of Rome, the Colosseum is an iconic symbol of ancient Rome.
+                                    Also known as the Flavian Amphitheatre, it was the largest amphitheater ever built
+                                    and could hold up to 80,000 spectators. The Colosseum was used for gladiatorial
+                                    contests and public spectacles and stands as a testament to Roman engineering and
+                                    architecture.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/italyThe Vatican City.jpg">
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>The Vatican City</h1>
+                                </div>
+                                <p>
+                                    A city-state surrounded by Rome, the Vatican is the spiritual and administrative
+                                    center of the Roman Catholic Church. It is home to St. Peter's Basilica, known for
+                                    its impressive dome and Michelangelo's Pietà, and the Vatican Museums, which house
+                                    an extensive collection of art, including the Sistine Chapel with Michelangelo's
+                                    famous ceiling frescoes.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/italyFlorence.jpeg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1> Florence</h1>
+                                </div>
+                                <p>
+                                    The capital of the Tuscany region, Florence is a city known for its cultural and
+                                    artistic heritage from the Renaissance period. The Uffizi Gallery houses a
+                                    world-class collection of Renaissance art, including works by Leonardo da Vinci and
+                                    Botticelli. The Florence Cathedral (Duomo) with Brunelleschi's dome and the Ponte
+                                    Vecchio bridge are also iconic landmarks.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/italyvenice.jpeg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Venice</h1>
+                                </div>
+                                <p>
+                                    Built on a network of canals, Venice is a unique and romantic city. St. Mark's
+                                    Square (Piazza San Marco) is surrounded by landmarks such as St. Mark's Basilica
+                                    with its distinctive Byzantine architecture and the Campanile (bell tower). The
+                                    Grand Canal, lined with historic buildings, is traversed by iconic gondolas.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/italypisa.jpeg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>The Leaning Tower of Pisa</h1>
+                                </div>
+                                <p>
+                                    Located in the Field of Miracles (Piazza dei Miracoli) in Pisa, the Leaning Tower is
+                                    one of the most recognizable landmarks in the world. The tower's tilt resulted from
+                                    an unstable foundation, and it has become a symbol of both architectural audacity
+                                    and engineering miscalculation.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="france">
+                    <div class="count-t">
+                        <h2>FRANCE</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/franceeiffel.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Eiffel Tower</h1>
+                            </div>
+                            <p>
+                                Located in the heart of Paris, the Eiffel Tower is one of the most recognizable
+                                landmarks globally. Built for the 1889 Exposition Universelle (World's Fair), it stands
+                                as a symbol of French ingenuity and is visited by millions of people each year. Visitors
+                                can take an elevator or climb the stairs to enjoy panoramic views of Paris.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/franceLouvre Museum.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Louvre Museum</h1>
+                            </div>
+                            <p>
+                                Situated in Paris, the Louvre is one of the world's largest and most visited art
+                                museums. It houses an extensive collection of art and artifacts, including the Mona
+                                Lisa, the Venus de Milo, and the Winged Victory of Samothrace. The museum is also
+                                renowned for its striking glass pyramid entrance.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/franceMont Saint-Michel.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Mont Saint-Michel</h1>
+                            </div>
+                            <p>
+                                This medieval abbey is perched on a rocky island in Normandy and is a UNESCO World
+                                Heritage site. Mont Saint-Michel is known for its stunning architecture, narrow winding
+                                streets, and panoramic views of the surrounding bay. It becomes isolated from the
+                                mainland at high tide, creating a magical atmosphere.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/franceVersailles Palace.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Versailles Palace</h1>
+                            </div>
+                            <p>
+                                Located just outside Paris, the Palace of Versailles is a masterpiece of French Baroque
+                                architecture. Built by Louis XIV, it served as the royal residence and symbolizes the
+                                grandeur of the French monarchy. The palace is surrounded by lavish gardens and the Hall
+                                of Mirrors, a spectacular room where the Treaty.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/franceCôte d'Azur.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Côte d'Azur</h1>
+                            </div>
+                            <p>
+                                The French Riviera is a glamorous and picturesque stretch of the Mediterranean coast,
+                                known for its stunning beaches, luxurious resorts, and vibrant cities such as Nice and
+                                Cannes. It attracts visitors with its warm climate, crystal-clear waters, and a blend of
+                                natural beauty and cultural attractions.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="sl">
+                    <div class="count-t">
+                        <h2>SWITZERLAND</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/slZermatt.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Zermatt</h1>
+                            </div>
+                            <p>
+                                Famous for the iconic Matterhorn mountain and a hub for skiing and mountaineering.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/slLucerne.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Lucerne</h1>
+                            </div>
+                            <p>
+                                Charming lakeside town with a medieval old town and the Chapel Bridge.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/slInterlaken.jpg " alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Interlaken</h1>
+                            </div>
+                            <p>
+                                Nestled between Lake Thun and Lake Brienz, offering stunning views and outdoor
+                                activities.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/slJungfraujoch.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Jungfraujoch</h1>
+                            </div>
+                            <p>
+                                Known as the "Top of Europe," it's a high-altitude mountain pass accessible by a scenic
+                                train ride.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/slGeneva.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Geneva</h1>
+                            </div>
+                            <p>
+                                International city hosting organizations like the United Nations, known for its Red
+                                Cross headquarters and the Jet d'Eau fountain.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="greece">
+                    <div class="count-t">
+                        <h2>GREECE </h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/greeceAthens.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Athens</h1>
+                            </div>
+                            <p>
+                                Capital city with ancient landmarks like the Acropolis and Parthenon.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/greeceSantorini.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Santorini</h1>
+                            </div>
+                            <p>
+                                Famous for its white-washed buildings and stunning sunsets over the Aegean Sea.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/greeceMykonos.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Mykonos </h1>
+                            </div>
+                            <p>
+                                Vibrant island known for its beaches, nightlife, and iconic windmills.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/greeceCrete.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Crete</h1>
+                            </div>
+                            <p>
+                                Greece's largest island, rich in history, with the Palace of Knossos and beautiful
+                                landscapes.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/greeceDelphi.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Delphi</h1>
+                            </div>
+                            <p>
+                                Archaeological site with the Temple of Apollo, considered the center of the world in
+                                ancient Greek religion.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="uk">
+                    <div class="count-t">
+                        <h2>UNITED KINGDOM</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/uk London.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>London</h1>
+                            </div>
+                            <p>
+                                Capital city with iconic landmarks like the Tower of London, Buckingham Palace, and the
+                                British Museum.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ukEdinburgh.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Edinburgh</h1>
+                            </div>
+                            <p>
+                                Historic city with Edinburgh Castle, the Royal Mile, and the annual Edinburgh Festival.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/uk Stonehenge.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Stonehenge</h1>
+                            </div>
+                            <p>
+                                Ancient stone circle in Wiltshire, attracting visitors interested in its mysterious
+                                origins.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ukOxford.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Oxford</h1>
+                            </div>
+                            <p>
+                                Famous university town with impressive architecture and renowned academic institutions.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ukLake District.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Lake District</h1>
+                            </div>
+                            <p>
+                                Picturesque national park with lakes, mountains, and charming villages, ideal for hiking
+                                and nature lovers.
 
 
-                  <div class="trvl_bx">
-                     <div class="cnames">
-                          <div class="acard">
-                             <h3>SWITZERLAND</h3>
-                              <img src="cnm/switzerland.jpeg">
-                              <div class="cont_names">
-                             <a href="">More Info</a>
-                       </div>
-                       </div> 
-                     <div class="acard">
-                    <h3>GREECE</h3>
-                      <img src="cnm/gm-6324e339-7f90-49d5-a843-218611f0e341-news-lead-greece.jpeg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>UNITED KINGDOM</h3>
-                      <img src="cnm/uk.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>BELGIUM</h3>
-                      <img src="cnm/belgium.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>NETHERLANDS</h3>
-                      <img src="cnm/canal-sunset-amsterdam-is-capital-scaled.jpeg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-              </div>
-            </div>
-        </div>        
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="bel">
+                    <div class="count-t">
+                        <h2>BELGIUM</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/belBrussels.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Brussels</h1>
+                            </div>
+                            <p>
+                                Capital city known for the Grand Place, Atomium, and as the headquarters of the European
+                                Union.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/belBruges.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Bruges</h1>
+                            </div>
+                            <p>
+                                Well-preserved medieval city with canals, cobbled streets, and historic buildings.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/belAntwerp.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Antwerp</h1>
+                            </div>
+                            <p>
+                                Port city with a rich artistic heritage, home to the painter Peter Paul Rubens.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/belGhent.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ghent</h1>
+                            </div>
+                            <p>
+                                City with a mix of medieval and modern architecture, featuring Gravensteen Castle and
+                                the Ghent Altarpiece.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/belArdennes.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ardennes</h1>
+                            </div>
+                            <p>
+                                Forested region with picturesque landscapes, ideal for outdoor activities like hiking
+                                and kayaking.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="nl">
+                    <div class="count-t">
+                        <h2>NETHERLANDS</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nlAmsterdam.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Amsterdam</h1>
+                            </div>
+                            <p>
+                                Capital city famous for its canals, historic houses, and world-class museums like the
+                                Van Gogh Museum.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nlKeukenhof Gardens.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Keukenhof Gardens</h1>
+                            </div>
+                            <p>
+                                Known as the "Garden of Europe," it's famous for its stunning tulip displays in spring.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nlZaanse Schans.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Zaanse Schans</h1>
+                            </div>
+                            <p>
+                                Open-air museum with traditional Dutch windmills, houses, and workshops.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nlRotterdam.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Rotterdam</h1>
+                            </div>
+                            <p>
+                                Modern city with innovative architecture, a bustling port, and cultural attractions.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nlGiethoorn.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Giethoorn</h1>
+                            </div>
+                            <p>
+                                Charming village with canals instead of roads, often referred to as the "Venice of the
+                                North."
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="spain">
+                    <div class="count-t">
+                        <h2>SPAIN</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/spainSagrada Familia.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Sagrada Família</h1>
+                            </div>
+                            <p>
+                                Located in Barcelona, the Sagrada Família is an iconic basilica designed by the renowned
+                                architect Antoni Gaudí. This UNESCO World Heritage Site is a masterpiece of Modernisme
+                                architecture and is known for its intricate facades, stunning interior, and unique
+                                design elements. Although construction began in 1882, the basilica is still under
+                                construction.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/spainAlhambra.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Alhambra</h1>
+                            </div>
+                            <p>
+                                Situated in Granada, the Alhambra is a palace and fortress complex that dates back to
+                                the mid-13th century. This Moorish architectural marvel is known for its intricate
+                                Islamic art, beautifully landscaped gardens, and stunning views of the surrounding
+                                mountains. The Alhambra is a UNESCO World Heritage Site.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/spainPrado Museum.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Prado Museum</h1>
+                            </div>
+                            <p>
+                                Located in Madrid, the Prado Museum is one of the most important art museums in the
+                                world. It houses an extensive collection of European art, including works by Spanish
+                                masters such as Francisco Goya, Diego Velázquez, and El Greco. The museum's collection
+                                spans from the 12th to the early 20th century.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/spainPark Güell.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Park Güell</h1>
+                            </div>
+                            <p>
+                                Another masterpiece by Antoni Gaudí, Park Güell is a public park in Barcelona known for
+                                its colorful mosaic sculptures, whimsical architecture, and panoramic views of the city.
+                                The park, a UNESCO World Heritage Site, is a prime example of Gaudí's unique style and
+                                creativity.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/spainlarambla.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>La Rambla</h1>
+                            </div>
+                            <p>
+                                Located in the heart of Barcelona, La Rambla is a bustling tree-lined street that
+                                stretches for 1.2 kilometers. It is famous for its vibrant atmosphere, street
+                                performers, open-air markets, and a variety of shops and cafes. La Rambla is a popular
+                                destination for both locals and tourists, offering a lively and dynamic experience.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="austria">
+                    <div class="count-t">
+                        <h2>AUSTRIA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/austriascheonborn.png" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Schönbrunn Palace</h1>
+                            </div>
+                            <p>
+                                Located in Vienna, Schönbrunn Palace is a UNESCO World Heritage Site and one of the most
+                                important cultural monuments in Austria. The palace, with its stunning Baroque
+                                architecture and extensive gardens, was the summer residence of the Habsburg monarchs.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
 
 
+                                        <span><i class="ri-star-line"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/austriaHofburg Palace.png">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Hofburg Palace</h1>
+                            </div>
+                            <p>
+                                Another prominent palace in Vienna, the Hofburg served as the primary residence of the
+                                Habsburg rulers. It is a vast complex with various architectural styles, including
+                                Gothic, Renaissance, and Baroque. The Hofburg now houses several museums, including the
+                                Imperial Apartments and the Sisi Museum.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/austriaHallstatt.png" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Hallstatt</h1>
+                            </div>
+                            <p>
+                                Nestled in the Austrian Alps, Hallstatt is a picturesque village on the shores of Lake
+                                Hallstatt. Known for its charming architecture, alpine scenery, and historical salt
+                                mines, Hallstatt is a UNESCO World Heritage Site and a popular destination for its
+                                natural beauty.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/austriaSalzburg Old Town.png" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Salzburg Old Town</h1>
+                            </div>
+                            <p>
+                                The historic center of Salzburg is a UNESCO World Heritage Site and the birthplace of
+                                Wolfgang Amadeus Mozart. The Old Town is characterized by its well-preserved Baroque
+                                architecture, including landmarks such as Salzburg Cathedral, Hohensalzburg Fortress,
+                                and the Getreidegasse, a famous shopping street.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/austriaGrossglockner High Alpine Road.png" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Grossglockner High Alpine Road</h1>
+                            </div>
+                            <p>
+                                This scenic mountain road takes you through the Hohe Tauern National Park, offering
+                                breathtaking views of the Austrian Alps, glaciers, and mountain peaks. The Grossglockner
+                                High Alpine Road is a popular route for those seeking stunning landscapes and alpine
+                                vistas.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-</header>
+    </header>
 
-<div class="offers">
 
-</div>
 
 
     <script src="basta.js"></script>
 </body>
+
 </html>

@@ -1,146 +1,1971 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title> Booking In Heaven</title>
 
-       
-        <!-- css file link -->    
-<link rel="stylesheet" href="austrl.css">
-<title>hatdogg</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title> Booking In Heaven</title>
+
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="austrl.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
 </head>
 
 
 <body>
+    <!-- Go back to top button -->
+    <button id="back-to-top-btn"><i class="ri-arrow-up-double-line"></i></button>
+
     <header>
         <nav>
-            <h4>Heaven</h4>
-            <ul>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">About Us</a></li>
-
-            </ul>
+            <a href="index.html" class="logo">heaven<span>.</span></a>
         </nav>
-    
+
         <div class="content">
-        <div class="cont_bx">
-            <h1>A U S T R I A L I A </h1>
-            
-            
-            
-        </div>
-        
-        <div class="trip_bx">
-        <div class="search_box">
-            <div class="card">
-                <h4>C O U N T R I E S</h4>
-                 
+            <div class="cont_bx">
+                <h1>AUSTRALIA</h1>
             </div>
+
+
+            <section class="touchsearch">
+                <div class="container">
+                    <form action="" class="form">
+                        <div class="inputline">
+                            <label for="destination" class="inputlabel"> Your destination </label>
+                            <input type="text" name="continent" id="continent" class="input-field"
+                                placeholder="Enter continent, country and the place">
+                        </div>
+
+                        <div class="inputline">
+                            <label for="date" class="inputlabel"> Date of your departure </label>
+                            <input type="date" name="date" id="date" class="input-field">
+                        </div>
+                        <div class="inputline">
+                            <label for="pax" class="inputlabel"> Number of people </label>
+                            <input type="text" name="pax" id="pax" class="input-field" placeholder="No. of people">
+                        </div>
+                    </form>
+                    <a href=""> Inquire Now</a>
                 </div>
-             
-            
-            
-            <div class="travel_bx">
-                <h4>Choose the country you wish to visit!</h4>
-                 <div class="cards">
-                    <div class="card">
-                        <h3>TONGA</h3>
-                        <img src="cnm/tngjpg.jpg">
-                        <div class="cont_names">
-                            <a href="aindex.html">More Info</a>
+
+            </section>
+
+
+
+            <div class="trip_bx">
+                <div class="travel_bx">
+                    <div class="cards">
+                        <div class="card">
+                            <h3>TONGA</h3>
+                            <div class="overlay">
+                                <a href="#tonga"> <img src="flags/austtonga.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>FIJI</h3>
+                            <div class="overlay">
+                                <a href="#fiji"> <img src="flags/austfiji.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>KIRIBATI</h3>
+                            <div class="overlay">
+                                <a href="#kiribati"> <img src="flags/austkiribati.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>MARSHALL ISLANDS</h3>
+                            <div class="overlay">
+                                <a href="#mi"> <img src="flags/austmi.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>MICRONESIA</h3>
+                            <div class="overlay">
+                                <a href="#micronesia"> <img src="flags/austmicronesia.jpeg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="trvl_bx">
+                    <div class="cnames">
+                        <div class="acard">
+                            <h3>NAURU</h3>
+                            <div class="overlayy">
+                                <a href="#nauru"> <img src="flags/austnauru.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>PALAU</h3>
+                            <div class="overlayy">
+                                <a href="#palau"> <img src="flags/austpalau.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>PAPUA NEW GUINEA</h3>
+                            <div class="overlayy">
+                                <a href="#png"> <img src="flags/austpapua.png"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="acard">
+                            <h3>NEW CALEDONIA</h3>
+                            <div class="overlayy">
+                                <a href="#nc"> <img src="flags/austnewcaledonia.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3> SOLOMON ISLANDS</h3>
+                            <div class="overlayy">
+                                <a href="#si"> <img src="flags/austsi.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <section class="destination">
+                <div class="container">
+                    <div class="heading">
+                        <h4 class="subt-h">
+                            Discover New Places
+                        </h4>
+
+                        <h1 class="title-h">
+                            Popular destination
+                        </h1>
+
+                        <div class="desc-h">
+                            <p>Planning a vacation around the world? Whether you’re craving a city break, a few days of
+                                adventure, or a total escape into nature, we’ve got you covered. Here are countless
+                                popular places around the world, each offering unique experiences!
+                            </p>
+
 
                         </div>
-                          
                     </div>
 
-                    <div class="card">
-                        <h3>FIJI</h3>
-                        <img src="cnm/fj.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+                </div>
+            </section>
+
+            <section class="countrues">
+                <div class="count-places" id="tonga">
+                    <div class="count-t">
+                        <h2>TONGA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/tongaMapu.jpeg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Mapu'a Vaea Blowholes</h1>
+                            </div>
+                            <p>
+                                The Mapu a Vaea or "Whistle of the Noble" are natural blowholes on the island of
+                                Tongatapu in the village of Houma in the Kingdom of Tonga
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <h3>KIRIBATI</h3>
-                        <img src="cnm/krbt.avif">
-                        <div class="cont_names">
-                            <a href="">More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/tongabeach.jpeg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ha'atafu Beach</h1>
+                            </div>
+                            <p>
+                                These are limestone caves with fresh water to swim in. Situated in the village of
+                                Haveluliku on the Eastern Side of Tonga and only about a 30 minute drive from Nuku'alofa
+                                it's a must see
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   </div>
-                    
-                   <div class="card">
-                        <h3>MICRONESIA</h3>
-                        <img src="cnm/mcrn.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/tongacaverns.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Caverns & Caves</h1>
+                            </div>
+                            <p>
+                                Cavern filled with stalactites & stalagmites, plus an underground freshwater pool for
+                                swimming.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div> 
-              
-              <div class="card">
-                <h3>PALAU</h3>
-                <img src="cnm/p.jpg">
-                <div class="cont_names">
-                    <a href="">More Info</a>
-            </div>
-      </div> 
- </div>
-   
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/tongagarden.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ene'io Botanical Garden</h1>
+                            </div>
+                            <p>
+                                The ‘Ene’io Botanical Garden (EBG) is a botanical garden in Tonga and is the first of
+                                its kind there. It has the largest and most varied plant collection in the Kingdom of
+                                Tonga.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/tongaha-amonga-a-maui-trilithon.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ha'amonga'a Maui Trilithon</h1>
+                            </div>
+                            <p>
+                                Haʻamonga ʻa Maui ("The Burden of Maui") is a stone trilithon located in Tonga, on the
+                                eastern part of the island of Tongatapu, in the village of Niutōua, in Heketā. It was
+                                built in the 13th century by King Tuʻitātui in honor of his two sons.[1] The monument is
+                                sometimes called the "Stonehenge of the Pacific
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="fiji">
+                    <div class="count-t">
+                        <h2>FIJI</h2>
+                        <p></p>
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/fijiYasawa Islands.jpeg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Yasawa Islands</h1>
+                                </div>
+                                <p>
+                                    The Yasawa Islands is the quintessential paradise that lies Northwest of the main
+                                    island Viti Levu. The region is a haven for nature lovers and is definitely a
+                                    mariner's dream for an adventurous ocean escapade.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/fijimamanuca.jpg">
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Mamanuca Islands</h1>
+                                </div>
+                                <p>
+                                    The Mamanuca Islands of Fiji are a volcanic archipelago lying to the west of Nadi
+                                    and to the south of the Yasawa Islands.
 
 
-                  <div class="trvl_bx">
-                     <div class="cnames">
-                          <div class="acard">
-                             <h3>NAURU</h3>
-                              <img src="cnm/nauru.jpeg">
-                              <div class="cont_names">
-                             <a href="">More Info</a>
-                       </div>
-                       </div> 
-                     <div class="acard">
-                    <h3>PAPUA NEW GUINEA</h3>
-                      <img src="cnm/papua new guinea .jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>NEW CALEDONIA</h3>
-                      <img src="cnm/Best-things-to-do-in-New-Caledonia-DP.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>SOLOMON ISLAND</h3>
-                      <img src="cnm/soloislan.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>MARSHALL ISLAND</h3>
-                      <img src="cnm/coral_reef__marshall_islands__majuro_atoll.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-              </div>
-            </div>
-        </div>        
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/fijibouma.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1> Bouma National Heritage Park</h1>
+                                </div>
+                                <p>
+                                    Protected jungle area spanning most of Taveuni Island, known for the Tavoro Falls &
+                                    their pools.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/fijibequa.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Beqa Lagoon</h1>
+                                </div>
+                                <p>
+                                    It's a great spot for adventurous tourists and famous for its fire walkers.
+                                    According to legend, over 500 years ago, the men of Beqa Island were given the gift
+                                    of being able to walk on fire by an eel in exchange for its life.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/fijisleepinggiant.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Garden of the Sleeping Giant</h1>
+                                </div>
+                                <p>
+                                    The garden is named after the Sleeping Giant mountain that towers over it, which got
+                                    its name from a local legend about a giant who ate so many locals that he fell into
+                                    a deep sleep
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="kiribati">
+                    <div class="count-t">
+                        <h2>KIRIBATI</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kiribatichristisland.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Christmas Island</h1>
+                            </div>
+                            <p>
+                                Kiritimati (also known as Christmas Island) is a Pacific Ocean atoll in the northern
+                                Line Islands. It is part of the Republic of Kiribati. The name is derived from the
+                                English word "Christmas" written in Gilbertese according to its phonology, in which the
+                                combination ti is pronounced s, giving [kiˈrɪsmæs].
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kiribatifanning.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Fanning Island</h1>
+                            </div>
+                            <p>
+                                Tabuaeran, also known as Fanning Island, is an atoll that is part of the Line Islands of
+                                the central Pacific Ocean and part of Kiribati.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kiribatitarawa.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Tarawa</h1>
+                            </div>
+                            <p>
+                                Tarawa is an atoll and the capital of the Republic of Kiribati,[1][2][3] in the
+                                Micronesia region of the central Pacific Ocean.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kiribatiabemama.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Abemama</h1>
+                            </div>
+                            <p>
+                                the first island where Captain Davis hoisted the Union jack in 1892 and home to Robert
+                                Louis Stevenson who resided here in 1889, offers good snorkelling in its lagoon.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kiribatiabaiang.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Abaiang</h1>
+                            </div>
+                            <p>
+                                Abaiang, is the most easily accessible outer island due to its proximity to Tarawa.
+                                Fishing activities can be arranged here.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="mi">
+                    <div class="count-t">
+                        <h2>MARSHALL ISLAND</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/miebeye.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ebeye</h1>
+                            </div>
+                            <p>
+                                Ebeye is the most populous island of Kwajalein Atoll in the Marshall Islands, as well as
+                                the center for Marshallese culture in the Ralik Chain of the archipelago.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/miemon.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Emon Beach</h1>
+                            </div>
+                            <p>
+                                Emon Beach is located on one of the largest atolls of Marshall Islands, on Kwajalein
+                                Atoll near the military base.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/mimajuro.jpg " alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Majuro</h1>
+                            </div>
+                            <p>
+                                The Kuwait Towers are a group of three thin towers in Kuwait City, standing on a
+                                promontory into the Persian Gulf
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/mitoi.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Roi-namur</h1>
+                            </div>
+                            <p>
+                                Roi-Namur (/ˌrɔɪ nəˈmʊər/ roy nə-MOOR) is an island in the north part of the Kwajalein
+                                Atoll in the Marshall Islands. Today it is a major part of the Ronald Reagan Ballistic
+                                Missile Defense Test Site, hosting several radar systems used for tracking and
+                                characterizing missile reentry vehicles (RV) and their penetration aids (penaids).
 
 
 
+                            <div class="rate">
 
-</header>
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
 
-<div class="offers">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-</div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/mibikini.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Bikini Atoll</h1>
+                            </div>
+                            <p>
+                                Bikini Atoll, known as Eschscholtz Atoll between the 1800s and 1946, is a coral reef in
+                                the Marshall Islands consisting of 23 islands surrounding a 229.4-square-mile central
+                                lagoon.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="micronesia">
+                    <div class="count-t">
+                        <h2>MICRONESIA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/microyapi.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Yap Island</h1>
+                            </div>
+                            <p>
+                                Yap is an island in the Federated States of Micronesia, in the Pacific Ocean. It’s
+                                ringed by coral reefs that are home to manta rays and sharks.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+
+
+                                        <span><i class="ri-star-line"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/microfalalop.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Falalop</h1>
+                            </div>
+                            <p>
+                                Falalop (Ulithian: Fl'aalop) is an island adjacent to the Ulithi Atoll in the western
+                                Pacific Ocean, approximately 191 km (103 nmi) east of Yap. It is part of the Yap State
+                                within the Federated States of Micronesia.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/microfais.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Fais</h1>
+                            </div>
+                            <p>
+                                Fais Island is a raised coral island in the eastern Caroline Islands in the Pacific
+                                Ocean, and forms a legislative district in Yap State in the Federated States of
+                                Micronesia. Fais Island is located approximately 87 kilometres (54 mi) east of Ulithi
+                                and 251 kilometres (156 mi) northeast of Yap and is the closest land to Challenger Deep,
+                                about 180 miles away.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/microwoleaijpg.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Woleai</h1>
+                            </div>
+                            <p>
+                                Woleai, also known as Oleai,[1] is a coral atoll of twenty-two islands in the western
+                                Caroline Islands in the Pacific Ocean, and forms a legislative
+                                district in the Yap State in the Federated States of Micronesia and is located
+                                approximately 57 kilometers (35 mi; 31 nmi) west-northwest of Ifalik and 108 kilometers
+                                (67 mi; 58 nmi) northeast of Eauripik. Woleai is also the name of the largest of the
+                                islets constituting the atoll, lying to the northeast
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/microstawal.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Satawal</h1>
+                            </div>
+                            <p>
+                                Satawal is a solitary coral atoll of one island with about 500 people on just over 1 km2
+                                located in the Caroline Islands in the Pacific Ocean. It forms a legislative district in
+                                Yap State in the Federated States of Micronesia. Satawal is the easternmost island in
+                                the Yap island group and is located approximately 70 kilometers (43 mi) east of
+                                Lamotrek.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="nauru">
+                    <div class="count-t">
+                        <h2>NAURU </h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/naurubuada.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Buada Lagoon</h1>
+                            </div>
+                            <p>
+                                Buada Lagoon is a landlocked, slightly brackish, freshwater lake of Buada District in
+                                the island nation of Nauru. It occupies about 0.05 square kilometres (0.019 sq mi).
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nauru_yaren-1230.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Yaren</h1>
+                            </div>
+                            <p>
+                                Yaren is a district of the Pacific island country of Nauru. It is the de facto capital
+                                of Nauru and is coextensive with Yaren Constituency.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/naurumenen.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Menen Hotel </h1>
+                            </div>
+                            <p>
+                                There are four hotels in Nauru, including the Menen Hotel, the largest hotel on the
+                                island, and the OD-N-Aiwo Hotel
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nauruanibare.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Anabar Beach</h1>
+                            </div>
+                            <p>
+                                Anabar Beach is located in Anabar, on the northern coast of Nauru Island, part of the
+                                Marshall Islands.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/nauruanubare.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Anibare Bay</h1>
+                            </div>
+                            <p>
+                                Anibare Bay is a large bay located in the Anibare District of eastern Nauru island.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="palau">
+                    <div class="count-t">
+                        <h2>PALAU</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/palaujellyfish.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Jellyfish Lake</h1>
+                            </div>
+                            <p>
+                                Jellyfish Lake (Palauan: Ongeim'l Tketau, lit. 'Fifth Lake') is a marine lake located on
+                                Eil Malk island in Palau. Eil Malk is part of the Rock Islands, a group of small, rocky,
+                                mostly uninhabited islands in Palau's Southern Lagoon, between Koror and Peleliu. There
+                                are about 70 other marine lakes located throughout the Rock Islands. Millions of golden
+                                jellyfish migrate horizontally across the lake daily.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/palaugerman.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>German Channel</h1>
+                            </div>
+                            <p>
+                                German Channel is an artificial channel dug into the Palau's barrier reef in the
+                                south-west that connects the lagoon to the Pacific Ocean. The channel was made by the
+                                Germans during the time when Palau was a German colony.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/palaumuseumjpg.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Belau National Museum</h1>
+                            </div>
+                            <p>
+                                The Belau National Museum, previously Palau Museum, is a museum in Koror, Palau. It is
+                                the oldest continuously run museum in Micronesia.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/palaurocki.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Rock Island</h1>
+                            </div>
+                            <p>
+                                The Rock Islands of Palau, also called Chelbacheb, are a collection of several hundred
+                                small limestone or coral uprises in the Southern Lagoon of Palau between Koror and
+                                Peleliu, now an incorporated part of Koror State. There are between 250 and 300 islands
+                                in the group according to different sources, with an aggregate area of 42 square
+                                kilometers (16 sq mi) and a maximum height of 207 meters (679 ft). The islands were
+                                declared a UNESCO World Heritage Site in 2012.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/palaudolphin.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Dolphins Pacific</h1>
+                            </div>
+                            <p>
+                                Aquarium in Palau
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="png">
+                    <div class="count-t">
+                        <h2>PAPUA NEW GUINEA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/pngport.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Port Moresby Nature Park</h1>
+                            </div>
+                            <p>
+                                Over 550 native animal species in tropical gardens, plus cultural demonstrations & a
+                                cafe.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/pngnationalmuseum.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>National Museum</h1>
+                            </div>
+                            <p>
+                                The Papua New Guinea National Museum and Art Gallery is the “spiritual house” for the
+                                rich natural, cultural and contemporary heritage of this country.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/pngvarirata-national-park.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Varirata National Park</h1>
+                            </div>
+                            <p>
+                                This is the country's first national park. It only covers an area of around 10 square km
+                                (4 square miles), but it reaches a height of around 760 meters (2,500 feet), and the
+                                vegetation varies from woodland and grassland to rain forest. It has six well-marked
+                                walking trails that take from 45 minutes to around 3 hours to hike, and none are too
+                                taxing, although the going can be oppressively humid.
+
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/pnglaewar.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Lae War Cemetery</h1>
+                            </div>
+                            <p>
+                                Lae is a town and port at the mouth of the Markham River on the Huon Gulf.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/pngjkmuseum.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>JK Macarthy Museum</h1>
+                            </div>
+                            <p>The JK McCarthy Museum is a branch of the National Museum and Art Gallery. Located in
+                                West Goroka (at the back corner of the National Sports Institute) in the Eastern
+                                Highlands Province.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="nc">
+                    <div class="count-t">
+                        <h2>NEW CALEDONIA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ncnoumea.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Nouméa</h1>
+                            </div>
+                            <p>
+                                Nouméa is the capital of the South Pacific archipelago and overseas French territory New
+                                Caledonia. Situated on the main island, Grand Terre, it's known for beaches and its
+                                blend of French and native Kanak influences.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ncfort.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Fort Teremba </h1>
+                            </div>
+                            <p>
+                                Fort Teremba is a former fort and a prison located near Moindou in New Caledonia, which
+                                came to be set up to house prisoners and the supervisory staff.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ncyejele.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Yejele Beach</h1>
+                            </div>
+                            <p>
+                                Yejele Beach is located on the southern coast of Maré Island, in the Loyalty Islands
+                                archipelago, part of New Caledonia.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ncheartofvoh.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Heart of Voh</h1>
+                            </div>
+                            <p>
+                                The Heart of Voh is a natural clearing formed by the mangroves. It symbolises an
+                                ecosystem worth protecting.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ncplacedes.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Place Des Cocotiers</h1>
+                            </div>
+                            <p>
+                                The Place des Cocotiers (Coconut Tree Square) is, since the end of the 19th century, the
+                                heart of the city of Nouméa.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="si">
+                    <div class="count-t">
+                        <h2>SOLOMON ISLAND</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/simalaita.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Malaita</h1>
+                            </div>
+                            <p>
+                                Malaita is the primary island of Malaita Province in Solomon Islands. Malaita is the
+                                most populous island of the Solomon Islands, with a population of 161,832 as of 2021,[1]
+                                or more than a third of the entire national population. It is also the second largest
+                                island in the country by area, after Guadalcanal.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/sigizo.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Gizo Island</h1>
+                            </div>
+                            <p>
+                                Ghizo Island lies in the Western Province of Solomon Islands, west of New Georgia and
+                                Kolombangar.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/sitetepare.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Tetepare</h1>
+                            </div>
+                            <p>
+                                Tetepare Island is the largest uninhabited island in the South Pacific, located at
+                                8.716667°S 157.55°E. It is a part of Western Province of the Solomon Islands. It covers
+                                approximately 118 square kilometres. Tetepare supports pristine lowland rainforest and a
+                                rich inshore marine area.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/siholycross.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Holy Cross Cathedral</h1>
+                            </div>
+                            <p>
+                                The Holy Cross Cathedral,[2][3] also referred to as the Catholic Cathedral of Honiara,
+                                is the cathedral church and seat of the Metropolitan Archdiocese of Honiara (Latin:
+                                Archidioecesis Honiaranus). It is located in the city of Honiara, which is on
+                                Guadalcanal Island and is the capital of the Solomon Islands, a country in the southwest
+                                Pacific Ocean.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/simarovoi.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Marovo Lagoon</h1>
+                            </div>
+                            <p>
+                                Marovo Lagoon is the largest saltwater lagoon in the world.[1] Located in the New
+                                Georgia Islands, surrounded by Vangunu Island and Nggatokae Island, both extinct
+                                volcanic islands, at 8.48°S 158.07°E. It is part of the Solomon Islands.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+    </header>
+
+
 
 
     <script src="basta.js"></script>
 </body>
+
 </html>

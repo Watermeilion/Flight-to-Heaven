@@ -1,36 +1,40 @@
-let list = document.querySelector('.slider .list');
-let items = document.querySelectorAll('.slider .list .item');
-let dots = document.querySelectorAll('.slider .dots li');
-let prev = document.getElementById('prev'); // Corrected from 'querySelectorId' to 'getElementById'
-let next = document.getElementById('next'); // Corrected from 'querySelectorId' to 'getElementById'
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTopButton = document.getElementById("back-to-top-btn");
 
-let active = 0;
-let lengthItems = items.length - 1;
+  window.addEventListener("scroll", scrollFunction);
 
-next.onclick = function() {
-  if (active + 1 > lengthItems) {
-    active = 0;
-  } else {
-    active = active + 1;
+  function scrollFunction() {
+    if (window.pageYOffset > 300) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
   }
-  reloadSlider();
-}
 
-prev.onclick = function() {
-  if (active - 1 < 0) {
-    active = lengthItems;
-  } else {
-    active = active - 1;
+  backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+  function smoothScrollBackToTop() {
+    const targetPosition = 0;
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    const duration = 750;
+    let start = null;
+
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = timestamp - start;
+      window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+      if (progress < duration) window.requestAnimationFrame(step);
+    }
+
+    window.requestAnimationFrame(step);
   }
-  reloadSlider();
-}
 
-function reloadSlider() {
-  let checkLeft = items[active].offsetLeft;
-  list.style.left = -checkLeft + 'px';
-
-  let lastActiveDot = document.querySelector('.slider .dots li.active');
-      lastActiveDot.classList.remove('active');
-      dots[active].classList.add('active');
-}
+  function easeInOutCubic(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t * t + b;
+    t -= 2;
+    return c / 2 * (t * t * t + 2) + b;
+  }
+});
 

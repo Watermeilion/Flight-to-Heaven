@@ -23,53 +23,36 @@ header nav{
     width: 95%;
     height: 7%;
     /*border: 1px solid #000;*/
-    margin: auto;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header nav ul{
-    list-style: none;
-    display: flex;
-
-}
-
-header nav ul li{
-    padding: 3px 15px;
-}
-
-header nav ul li:nth-child(1){
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 5px 20px;
-}
-
-header nav ul li:nth-last-child(1){
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    padding: 5px 20px;
-}
-
-header nav ul li:nth-child(1) a {
-   color: #ffffff;
-}
-
-header nav ul li:nth-last-child(1) a {
-    color: #ffffff
-}
-
-header nav ul li a{
+header .logo{
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bolder;
     text-decoration: none;
-    color: #121312;
-    font-size: 13px;    
-    font-weight: 500;
-    transition: 3s linear;
-}
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; padding: 0;
+      box-sizing: border-box;
+      outline: none; border: none;
+      
+  }
+  
+  header .logo span{
+    color: #ff8c00;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0; padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      outline: none; border: none;
+  }
 
-header nav ul li a:hover{
-    color: rgb(0, 0, 0);
-}
 
 header .content{
     position: relative;
@@ -83,7 +66,7 @@ header .content::before{
     position: absolute;
     width: 100%;
     height: 80%;
-    /*border: 1px solid #000;*/
+    /*border: 1px solid #000000;*/
     background: url('1.jpg') no-repeat center center/cover;
     border-radius: 10px;
     z-index: -1;
@@ -93,7 +76,7 @@ header .content::before{
 header .content .cont_bx{
     width: 100%;
     height: auto;
-    color: #fff;
+    
     padding: 30px;
 }
 
@@ -102,7 +85,7 @@ header .content .cont_bx h1{
     font-size: 6rem;
     line-height: 40px;
     font-weight: 800;
-    color:  whitesmoke;
+    color: #ffffff;
     padding: 8%;
     /*margin:0;*/
    /* border: 1px solid #000;*/
@@ -209,6 +192,7 @@ header .content .cont_bx h1{
 .trip_bx .travel_bx .cards .card .overlay img {
     width: 240px;
     height: 135px;
+
 }
 
 .trip_bx .travel_bx .cards .card:hover .overlay {
@@ -293,7 +277,7 @@ section .heading .title-h{
     font-size: 34px;
     line-height: 44px;
     text-transform: uppercase;
-    color: #ff0884;
+    color: #ea8e1d;
 
 }
 
@@ -302,7 +286,7 @@ section .heading .subt-h{
     line-height: 20px;
     font-weight: 400;
     text-transform: capitalize;
-    color: #ff0884;
+    color: #ff8c00;
 
 }
 
@@ -310,13 +294,18 @@ section .heading .desc-h{
     font-size: 16px;
     line-height: 23px;
     text-transform: capitalize;
-    color: #1ab81f;
+    color: #000000;
     max-width: 700px;
     text-align: center;
+    
+    
     
 
 }
 
+.count-places .coun-t h2{
+    margin: 0% 0% 0% 0%;
+}
 
 
 .count-places .row-container {
@@ -332,6 +321,7 @@ section .heading .desc-h{
     display: flex;
     width: 100%;
     height: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
   } 
 
@@ -394,4 +384,24 @@ section .heading .desc-h{
     font-size: 12px;
     margin: 0% 0% 0% 90%;
 } 
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }
   
+  #back-to-top-btn:hover {
+    background-color: #ff7b00;
+  }

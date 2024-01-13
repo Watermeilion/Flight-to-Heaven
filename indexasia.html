@@ -1,146 +1,2005 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <title> Booking In Heaven</title>
 
-       
-        <!-- css file link -->    
-<link rel="stylesheet" href="asia.css">
-<title>hatdogg</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title> Booking In Heaven</title>
+
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="asia.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
 </head>
 
 
 <body>
+    <!-- Go back to top button -->
+    <button id="back-to-top-btn"><i class="ri-arrow-up-double-line"></i></button>
+
     <header>
         <nav>
-            <h4>Heaven</h4>
-            <ul>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">About Us</a></li>
-
-            </ul>
+            <a href="index.html" class="logo">heaven<span>.</span></a>
         </nav>
-    
+
         <div class="content">
-        <div class="cont_bx">
-            <h1>A S I A</h1>
-            
-            
-            
-        </div>
-        
-        <div class="trip_bx">
-        <div class="search_box">
-            <div class="card">
-                <h4>C O U N T R I E S</h4>
-                 
+            <div class="cont_bx">
+                <h1>ASIA</h1>
             </div>
+
+
+            <section class="touchsearch">
+                <div class="container">
+                    <form action="" class="form">
+                        <div class="inputline">
+                            <label for="destination" class="inputlabel"> Your destination </label>
+                            <input type="text" name="continent" id="continent" class="input-field"
+                                placeholder="Enter continent, country and the place">
+                        </div>
+
+                        <div class="inputline">
+                            <label for="date" class="inputlabel"> Date of your departure </label>
+                            <input type="date" name="date" id="date" class="input-field">
+                        </div>
+                        <div class="inputline">
+                            <label for="pax" class="inputlabel"> Number of people </label>
+                            <input type="text" name="pax" id="pax" class="input-field" placeholder="No. of people">
+                        </div>
+                    </form>
+                    <a href=""> Inquire Now</a>
                 </div>
-             
-            
-            
-            <div class="travel_bx">
-                <h4>Choose the country you wish to visit!</h4>
-                 <div class="cards">
-                    <div class="card">
-                        <h3>PHILIPPINES</h3>
-                        <img src="cnm/philippines.jpg">
-                        <div class="cont_names">
-                            <a href="aindex.html">More Info</a>
+
+            </section>
+
+
+
+            <div class="trip_bx">
+                <div class="travel_bx">
+                    <div class="cards">
+                        <div class="card">
+                            <h3>PHILIPPINES</h3>
+                            <div class="overlay">
+                                <a href="#ph"> <img src="flags/asphil.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>SOUTH KOREA</h3>
+                            <div class="overlay">
+                                <a href="#sk"> <img src="flags/assk.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>ISRAEL</h3>
+                            <div class="overlay">
+                                <a href="#israel"> <img src="flags/asisrael.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>KUWAIT</h3>
+                            <div class="overlay">
+                                <a href="#kuwait"> <img src="flags/askuwait.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>INDONESIA</h3>
+                            <div class="overlay">
+                                <a href="#indo"> <img src="flags/asindo.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="trvl_bx">
+                    <div class="cnames">
+                        <div class="acard">
+                            <h3>JAPAN</h3>
+                            <div class="overlayy">
+                                <a href="#jp"> <img src="flags/asjapan.jpg"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>VIETNAM</h3>
+                            <div class="overlayy">
+                                <a href="#viet"> <img src="flags/asviet.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>MONGGOLIA</h3>
+                            <div class="overlayy">
+                                <a href="#mo"> <img src="flags/asmongolia.png"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="acard">
+                            <h3>CHINA</h3>
+                            <div class="overlayy">
+                                <a href="#ch"> <img src="flags/aschina.png"></a>
+                            </div>
+                        </div>
+
+                        <div class="acard">
+                            <h3>KAZAKHSTAN</h3>
+                            <div class="overlayy">
+                                <a href="#kazak"> <img src="flags/askazak.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <section class="destination">
+                <div class="container">
+                    <div class="heading">
+                        <h4 class="subt-h">
+                            Discover New Places
+                        </h4>
+
+                        <h1 class="title-h">
+                            Popular destination
+                        </h1>
+
+                        <div class="desc-h">
+                            <p>Planning a vacation around the world? Whether you’re craving a city break, a few days of
+                                adventure, or a total escape into nature, we’ve got you covered. Here are countless
+                                popular places around the world, each offering unique experiences!
+                            </p>
+
 
                         </div>
-                          
                     </div>
 
-                    <div class="card">
-                        <h3>SOUTH KOREA</h3>
-                        <img src="cnm/Depositphotos_23226508_L-1.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+                </div>
+            </section>
+
+            <section class="countrues">
+                <div class="count-places" id="ph">
+                    <div class="count-t">
+                        <h2>PHILIPPINES</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/philbor.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Boracay</h1>
+                            </div>
+                            <p>
+                                There is a reason that Boracay Island is considered the beach capital of the Philippines
+                                because there are more than 12 beaches. This tiny island in the west Visayas region is
+                                ideal for beach-goers who are after simple relaxation in the sun or water activities.
+                                White Beach, on the west side of the island, is one of the best beaches in the
+                                Philippines.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <h3>VIETNAM</h3>
-                        <img src="cnm/halong-vietnam-overview-1.jpg">
-                        <div class="cont_names">
-                            <a href="">More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/philboholjpg.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Bohol</h1>
+                            </div>
+                            <p>
+                                The island of Bohol in the Philippines' central Visayas region runs at a slower pace,
+                                and it's a destination that showcases the country's natural beauty. One of the most
+                                unique natural wonders on the island is the Chocolate Hills in Carmen. This
+                                UNESCO-protected site is a collection of 1,200 geological formations that turn brown in
+                                the dry season, resembling a landscape of chocolate candy kisses.
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   </div>
-                    
-                   <div class="card">
-                        <h3>INDONESIA</h3>
-                        <img src="cnm/PuraUlunbali.jpg">
-                        <div class="cont_names">
-                            <a href=""> More Info</a>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/philcb.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Cebu</h1>
+                            </div>
+                            <p>
+                                The island of Cebu, in the central Visayas region, is considered the port to some of the
+                                best diving and snorkeling in the Philippines. If you are an underwater enthusiast, Cebu
+                                is one of your best options for excursions that get you up-close to whale sharks, coral
+                                reefs, and sea turtles.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div> 
-              
-              <div class="card">
-                <h3>KUWAIT</h3>
-                <img src="cnm/kuwait.jpg">
-                <div class="cont_names">
-                    <a href="">More Info</a>
-            </div>
-      </div> 
- </div>
-   
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/philbarnauejpg.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Banaue</h1>
+                            </div>
+                            <p>
+                                The rice terraces of Banaue are one of the most striking things to see in the
+                                Philippines. The emerald-green terraces are an agricultural wonder in this area. Some of
+                                the terraces are estimated to have been hand-carved into the mountainside more than
+                                2,000 years ago.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/phillvigan.pg.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Vigan </h1>
+                            </div>
+                            <p>
+                                The historical city of Vigan in the northern Philippines is one of the most charming
+                                towns to visit in the Luzon region. Its culture is a fusion of Chinese and Spanish
+                                influences originating from settlers to the area.The best view of the area is from the
+                                Bantay Bell Tower, which is also a noted landmark in the area. The Calle Crisologo
+                                historic district is a walkable district, where you will encounter many local craftsman
+                                and see historical architecture.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="sk">
+                    <div class="count-t">
+                        <h2>SOUTH KOREA</h2>
+                        <p></p>
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/skchangpalace.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Changdeokgung Palace</h1>
+                                </div>
+                                <p>
+                                    The palace isn't just a single building, it's a complex of buildings, and each
+                                    served a different purpose. Some are accommodations; some are libraries, dining
+                                    rooms, and meeting rooms, among other uses. Be sure to spend some time in the
+                                    78-acre Huwon, or palace garden, located behind the palace. It's filled with
+                                    pathways, green spaces, pagodas, streams, and lakes.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/skgame.jpg">
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>The hillside village of Gamecheon</h1>
+                                </div>
+                                <p>
+                                    Did you know you can hit the beach in Korea? Busan is the second largest city in the
+                                    country, and its coast is lined with some beautiful beaches and resorts. There's a
+                                    lot of culture and history here, too. Be sure to visit the Beomeosa Temple and the
+                                    hillside village of Gamecheon. Gamecheon is a European-style village on the cliffs
+                                    above the sea, like Korea's version of Santorini.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/skjeonku.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1> Jeonju</h1>
+                                </div>
+                                <p>
+                                    The Former Spiritual Capital of Korea is a very historic city.
+                                    it's about 90 minutes by train from Seoul. It's home to many ancient temples and
+                                    shrines along with a hanok village. These are found throughout Korea. They are
+                                    preserved neighborhoods of ancient and old homes (hanoks), allowing visitors to get
+                                    a feel for what life was like in ancient Korea.
+                                    Some of the homes in the hanok villages are open for tours, and others have been
+                                    made into museums (and restaurants and lodging, too), but most remain private homes.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/skntower.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>N Seoul Tower</h1>
+                                </div>
+                                <p>
+                                    Yes, everyone visiting Seoul should go up in the city's iconic observation tower.
+                                    Its position almost on top of a mountain, plus the height of the tower itself, gets
+                                    you almost 500 meters above sea level and the city below.The top levels of the N
+                                    Seoul Tower include indoor and outdoor observation areas and restaurants. The
+                                    exterior of the tower is covered in LED lighting, which is illuminated each night in
+                                    seasonal light shows.There's a cable car that takes you from the city to the tower's
+                                    base area.
+
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-container">
+                            <div class="count-img">
+                                <img src="count/skbukchon.jpg" alt="" />
+                            </div>
+                            <div class="col">
+                                <div class="title">
+                                    <h1>Bukchon Hanok Village</h1>
+                                </div>
+                                <p>
+                                    Hanok villages, which can be found in a few places in Seoul and around Korea, are
+                                    living museums. They're restored and preserved ancient neighborhoods, some in their
+                                    original location (like Bukchon) and some re-created with hanoks (traditional Korean
+                                    homes) moved from elsewhere. They give visitors an opportunity to not only
+                                    experience what it was like to live in a hanok, but also what it was like to live in
+                                    Korea 600 years ago.
+                                </p>
+
+                                <div class="rate">
+
+                                    <div class="rating">
+                                        <div>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-fill"></i></span>
+                                            <span><i class="ri-star-half-fill"></i></span>
+                                            <span><i class="ri-star-line"></i></span>
+                                        </div>
+                                        <p>4.5 (15)</p>
+                                        <h4> $7999.99</h4>
+                                        <h3> 15 Days Tour</h3>
+                                        <a href="" class="btn">Book Now</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="israel">
+                    <div class="count-t">
+                        <h2>ISRAEL</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/iswaling.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Wailing Wall</h1>
+                            </div>
+                            <p>
+                                The Western Wall, known in the West as the Wailing Wall, and in Islam as the Buraq Wall,
+                                is a portion of ancient limestone wall in the Old City of Jerusalem that forms part of
+                                the larger retaining wall of the hill known to Jews and Christians as the Temple Mount.
 
 
-                  <div class="trvl_bx">
-                     <div class="cnames">
-                          <div class="acard">
-                             <h3>ISRAEL</h3>
-                              <img src="cnm/Israel-Jordan-8-Day-Budget-Travel-Package-4.webp">
-                              <div class="cont_names">
-                             <a href="">More Info</a>
-                       </div>
-                       </div> 
-                     <div class="acard">
-                    <h3>JAPAN</h3>
-                      <img src="cnm/beautiful-places-in-japan-itsukushima-shrine-hiroshima-1920x890.avif">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>CHINA</h3>
-                      <img src="cnm/china.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>MONGOLIA</h3>
-                      <img src="cnm/mongolia.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-                <div class="acard">
-                    <h3>KAZAKHSTAN</h3>
-                      <img src="cnm/kazakhstan.jpg">
-                  <div class="cont_names">
-                      <a href=""> More Info</a>
-                 </div>
-                </div> 
-              </div>
-            </div>
-        </div>        
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/isvia.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Via dolorosa</h1>
+                            </div>
+                            <p>
+                                The Via Dolorosa is a processional route in the Old City of Jerusalem.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/istemplem.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Temple mount</h1>
+                            </div>
+                            <p>
+                                The Temple Mount is the place where past Jewish temples are commonly believed to have
+                                stood
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/istofd.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Tower of David</h1>
+                            </div>
+                            <p>
+                                The Tower of David also known as the Citadel is an ancient citadel located near the
+                                Jaffa Gate entrance to the Old City of Jerusalem
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ismountz.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Mount Zion</h1>
+                            </div>
+                            <p>
+                                Mount Zion is a hill in Jerusalem, located just outside the walls of the Old City. The
+                                term Mount Zion has been used in the Hebrew Bible first for the City
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="kuwait">
+                    <div class="count-t">
+                        <h2>KUWAIT</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwavenue.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>The Avenues</h1>
+                            </div>
+                            <p>
+                                The Avenues Mall is the largest shopping mall in [Kuwait]. The mall is located in the
+                                Rai area extending from Fifth Ring Road from the south and Al Ghazali Highway from the
+                                east
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwgm.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Grand Mosque</h1>
+                            </div>
+                            <p>
+                                The largest mosque in the country, it is the key place of worship for daily prayers.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwtowers.jpg " alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Kuwait Towers</h1>
+                            </div>
+                            <p>
+                                The Kuwait Towers are a group of three thin towers in Kuwait City, standing on a
+                                promontory into the Persian Gulf
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuw360m.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>360 mall</h1>
+                            </div>
+                            <p>
+                                360 Mall is a shopping mall located on the Sixth Ring Highway in the South Surra, Kuwait
+                                that opened on 5 July 2009
 
 
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwmirrorh.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Mirror House</h1>
+                            </div>
+                            <p>
+                                This place is a private house turned into a museum and tourist attraction
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="indo">
+                    <div class="count-t">
+                        <h2>INDONESIA </h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/indobali.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Bali-Bali</h1>
+                            </div>
+                            <p>
+                                a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java
+                                and west of Lombok, the province includes the island of Bali and a few smaller offshore
+                                islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/indoboro.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Borobudur</h1>
+                            </div>
+                            <p>
+                                The largest Buddhist temple in the world, and ranks with Bagan in Myanmar
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/indoorangutan.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Orangutans of borneo </h1>
+                            </div>
+                            <p>
+                                The Bornean orangutan is a species of orangutan endemic to the island of Borneo.
+                                Together with the Sumatran orangutan and Tapanuli orangutan, it belongs to the only
+                                genus of great apes native to Asia. It is the largest of the three species of orangutans
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/indogili.jpeg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Gili islands</h1>
+                            </div>
+                            <p>
+                                Gili Islands are famous for its turtle conservation and brings a brilliant underwater
+                                experience for tourists. Apart from that, tourists can also enjoy scuba diving and
+                                snorkeling. The Gili Islands diving activities are a sure thrill as they provide an
+                                adrenaline rush.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/indokomodo.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Komodo National Park</h1>
+                            </div>
+                            <p>
+                                a national park in Indonesia located within the Lesser Sunda Islands in the border
+                                region between the provinces of East Nusa Tenggara and West Nusa Tenggara
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="jp">
+                    <div class="count-t">
+                        <h2>JAPAN</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/jptokyo.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Tokyo</h1>
+                            </div>
+                            <p>
+                                Tokyo is part of the Kantō region on the central coast of Honshu, Japan's largest
+                                island.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/jposaka.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Osaka</h1>
+                            </div>
+                            <p>
+                                It is the capital of and most populous city in Osaka Prefecture, and the third most
+                                populous city in Japan, following the special wards of Tokyo and Yokohama.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/jpkyoto.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Kyoto</h1>
+                            </div>
+                            <p>
+                                Kyoto is the former capital city of Japan and world-famous for its refined culture,
+                                dining, and charm of rural Japan.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/jpnara.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Nara</h1>
+                            </div>
+                            <p>
+                                Nara Park is home to the famously tame deer wandering freely, and adjacent Todaiji
+                                Temple houses the world's largest bronze Buddha statue
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/jphiroshima.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Hiroshima</h1>
+                            </div>
+                            <p>
+                                Miyajima is worth visiting as a day trip from Hiroshima for its beautiful landscapes,
+                                historic shrines, and wealth of history and culture.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="viet">
+                    <div class="count-t">
+                        <h2>VIETNAM</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/viethalong.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Halong Bay</h1>
+                            </div>
+                            <p>
+                                The karst seascape of Halong Bay is one of the best places to visit in the world for
+                                spellbinding sea views.
+                                There are plenty of caves in the bay that can be entered including the Hang Sung Sot,
+                                with three mammoth caverns, and the Hang Dao Go, with superbly weird stalagmites and
+                                stalactites. For most people though, the highlight is simply cruising amid the karsts
+                                and soaking up the changing scenery of pinnacles as you pass by.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwhocity.jpg" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ho Chi Minh City</h1>
+                            </div>
+                            <p>
+                                For big city fans, no visit to Vietnam is really complete without a visit to Ho Chi Minh
+                                City, the buzzing commercial hub of the country.
+                                The streets are an insane clog of motorbikes and cars, the restaurant and café scene is
+                                incredibly cosmopolitan, and the shopping is the best in the country.
+                                At its center is Dong Khoi, a relatively small and easily navigable central district,
+                                which holds most of the city's sights.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwphongpark.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Phong Nha-Ke Bang National Park</h1>
+                            </div>
+                            <p>
+                                One of the best places to visit in Vietnam for caving, World Heritage-listed Phong
+                                Nha-Ke Bang National Park is a dramatic karst mountain formation honeycombed with huge
+                                caverns, which are home to superb stalactite and stalagmite displays.
+                                It's best known for its caving activities, which range from multi-day hiking and caving
+                                tours for the more adventurous, to simpler half-day trips to caves with easy access
+                                provided by boat trips and modern boardwalks, but the national park also offers mountain
+                                biking and trekking activities.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuhue.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Hue</h1>
+                            </div>
+                            <p>
+                                One of Vietnam's most historic towns, Hue is packed to the brim with relics from the
+                                reign of the 19th-century Nguyen emperors.
+                                Sitting along the banks of the gorgeous Perfume River, the Imperial Enclosure is a huge
+                                site set within walls that sprawl for 2.5 kilometers.
+                                While touring the grounds check out the gorgeous Ngo Mon Gate, the Thai Hoa Palace with
+                                its finely lacquered interior detailing, the Dien Tho Residence where the Queen Mothers
+                                would live, and the Halls of Mandarins with its preserved ceiling murals.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kuwmyson.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> My Son</h1>
+                            </div>
+                            <p>
+                                Surrounded by lush jungle-covered mountains, My Son is a ruined Cham era temple city
+                                that dates from the 4th century.
+                                There are around 20 temple structures still standing here, all built of brick or
+                                sandstone blocks and showing interesting influences from various Asian empires,
+                                including Indian and Malay.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="mo">
+                    <div class="count-t">
+                        <h2>MONGGOLIA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/monuurr.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Terkhiin Tsagaan Nuur</h1>
+                            </div>
+                            <p>
+                                Terkhiin Tsagaan NuurMeaning ‘Great White Lake’ in English, Terkhiin Tsagaan Nuur is
+                                aptly named, as its reflective waters beautifully mirror the skies and clouds above.
+                                Due to its remote nature, Terkhiin Tsagaan Nuur is a very peaceful place to camp for a
+                                couple of nights. There are several great hikes you can do in the surrounding area, with
+                                Khorgo Volcano particularly worth a visit.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/movalley.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Orkhon Valley </h1>
+                            </div>
+                            <p>
+                                Dreamtimes Lying almost slap bang in the middle of Mongolia, it’s in the scenic Orkhon
+                                Valley where the sacred mountain-forest of Otuken was believed to be. Ruling over the
+                                place where the ancestor spirits resided granted the ruler the divine right to rule on
+                                Earth. There is something quite spiritual about traveling through the endless empty
+                                landscapes
+                                surrounding the valley; you barely see another soul for days other than the flocks of
+                                livestock and the herds of horses that meander across the steppe in between the
+                                occasional yurt.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/mogenghisstaue.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Genghis Khan Statue Complex</h1>
+                            </div>
+                            <p>
+                                Simply breathtaking, the gigantic statue of Genghis Khan atop his horse glimmers in the
+                                light as he imperiously looks out over all the steppe and mountains surrounding the
+                                complex. Towering to a height of 40 meters, the statue was built in 2008 to honor the
+                                800th anniversary of the founding of the Mongol Empire. Its sheer size and scale are
+                                certainly fitting of the man who rose to rule such a huge swathe of territory and is a
+                                national hero in the country.
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/moulaanbaatar.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Ulaanbaatar</h1>
+                            </div>
+                            <p>
+                                Home to almost half of the country’s population, the sprawling city of Ulaanbaatar is
+                                Mongolia’s capital, as well as its cultural, administrative, and commercial heart.
+                                Located in the delightfully named Valley of the Golden Cradle, at the point where the
+                                Selbe and Tuul Rivers meet, the city is a strange yet intoxicating mix of urban and
+                                nomadic lifestyles.
 
 
-</header>
+                            </p>
 
-<div class="offers">
+                            <div class="rate">
 
-</div>
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/monp.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Altai Tavan Bogd National Park</h1>
+                            </div>
+                            <p>
+                                Altai Tavan Bogd National Park Covering a vast expanse of territory that includes
+                                everything from the Tavan Bogd massif to the glittering lakes of Dayan, Khoton, and
+                                Khurgan, Altai Tavan.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="ch">
+                    <div class="count-t">
+                        <h2>CHINA</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/chbeijing.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Beijing</h1>
+                            </div>
+                            <p>
+                                Beijing, the country's political and cultural centre for more than 700 years, has more
+                                buildings of historical and architectural significance than any other contemporary city
+                                in China
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/chchanghai.png">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1> Shanghai</h1>
+                            </div>
+                            <p>
+                                The city is located on the southern estuary of the Yangtze River, with the Huangpu River
+                                flowing through it
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/chguang.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Guangzhou</h1>
+                            </div>
+                            <p>
+                                Guangzhou, also known as Canton is the capital and largest city of Guangdong province in
+                                southern China
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/chhengdu.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Chengdu</h1>
+                            </div>
+                            <p>
+                                Chengdu is the largest city in Sichuan and the fourth largest in China. 21,192,000 for
+                                2021, adding more residents than any other city in the country
+
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/ji.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Shenzhen</h1>
+                            </div>
+                            <p>
+                                A cute village by the coast with a relaxed vibe.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="count-places" id="kazak">
+                    <div class="count-t">
+                        <h2>KAZAKHSTAN</h2>
+                        <p></p>
+                    </div>
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kazakAlmaty.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Almaty</h1>
+                            </div>
+                            <p>
+                                It was formerly the capital of the Kazakh Soviet Socialist Republic (1929–91) and of
+                                independent Kazakhstan (1991–97). Almaty lies in the northern foothills of the Trans-Ili
+                                Alatau at an elevation of 2,300–3,000 feet (700–900 metres), where the Bolshaya and
+                                Malaya Almaatinka rivers emerge onto the plain.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+
+
+                                        <span><i class="ri-star-line"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kazakAktau.jpg">
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Aktau</h1>
+                            </div>
+                            <p>
+                                The almost 40-year-old city overlooking the great Caspian Sea is a fascinating beauty
+                                and among the most serene visiting places in Kazakhstan. It is here in Aktau that one
+                                can spot some of the rare Kazakhstan tourist attractions and more of ancient
+                                architectural ensembles. Cultural centers, concert hall, cinemas, and libraries from
+                                ancient times are spread all over the city and must be explored for a local feel of the
+                                place.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kazakBabaji-Khatun Mausoleum.png" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Taraz</h1>
+                            </div>
+                            <p>
+                                If you are into ancient sites, mysterious places, and admire ruins, head to Taraz, which
+                                happens to among the famous Kazakhstan tourist spots. The place holds plenty of secrets
+                                from the past century and is indeed one of the popular Kazakhstan tourist attractions
+                                worth your time.Visit Babaji-Khatun Mausoleum for its distinct sixteen-ribbed conical
+                                dome
+                                or plan an excursion to Talas River in the south near the border with Kyrgyzstan
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kazakLake Balkhash.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Lake Balkhash</h1>
+                            </div>
+                            <p>
+                                Located 600 miles to the east of Aral Sea, the lake is a major source of hydroelectric
+                                projects in the country and a notable Kazakhstan places to visit. The lake is high and
+                                rocky towards the northern banks and one can spot plenty of ancient rock-cut traces
+                                there. Lake Balkhash once was a prominent place of breeding for marine life that
+                                included as many as 20 species of fish.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-container">
+                        <div class="count-img">
+                            <img src="count/kazakBaikonur.jpg" alt="" />
+                        </div>
+                        <div class="col">
+                            <div class="title">
+                                <h1>Baikonur</h1>
+                            </div>
+                            <p>
+                                Administered by Russian Federation, Baikonur is the world’s oldest and largest space
+                                launch facility. Baikonur Cosmodrome was one a secret missile testing site that happened
+                                to be a strategically important place for Russians.
+                            </p>
+
+                            <div class="rate">
+
+                                <div class="rating">
+                                    <div>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-fill"></i></span>
+                                        <span><i class="ri-star-half-fill"></i></span>
+                                        <span><i class="ri-star-line"></i></span>
+                                    </div>
+                                    <p>4.5 (15)</p>
+                                    <h4> $7999.99</h4>
+                                    <h3> 15 Days Tour</h3>
+                                    <a href="" class="btn">Book Now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+    </header>
+
+
 
 
     <script src="basta.js"></script>
 </body>
+
 </html>
